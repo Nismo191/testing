@@ -1,0 +1,25 @@
+$font-stack:    Roboto, sans-serif;
+$primary-color: #333333;
+$secondary-color: #555555;
+$text-color: #ffffff;
+
+nav{
+  ul{
+    background: $primary-color;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li{
+    display: inline-block;
+  }
+  a{
+    color: $text-color;
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  a:hover{
+    background: $secondary-color;
+  }
+}
