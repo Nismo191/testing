@@ -2,12 +2,13 @@ $font-stack:    Roboto, sans-serif;
 $primary-color: #1565c0;
 $secondary-color-dark: #003c8f;
 $secondary-color-light: #5e92f3;
+$bg-color: #ffffff;
 $text-color: #ffffff;
 $main-font: 'Raleway', sans-serif;
 $head-font: 'Josefin Slab', serif;
 
 html {
-  background-color: $secondary-color-light;
+  background-color: $bg-color;
 }
 
 nav{

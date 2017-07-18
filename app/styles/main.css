@@ -1,0 +1,54 @@
+html {
+  background-color: #ffffff; }
+
+nav {
+  position: absolute;
+  top: 0;
+  height: 72px;
+  background: #1565c0;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0px 2px 3px 0px #003c8f; }
+  nav ul {
+    background: #1565c0;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    padding-top: 9px;
+    display: inline-block;
+    height: 72px;
+    transition: background 0.5s ease;
+    background-color: #1565c0; }
+  nav li:hover {
+    background-color: #5e92f3;
+    text-decoration: none; }
+  nav a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px; }
+  nav a:hover {
+    text-decoration: none; }
+  nav a:link {
+    color: #ffffff; }
+  nav a:visited {
+    color: #ffffff; }
+  nav a:hover {
+    color: #ffffff; }
+  nav a:focus {
+    color: #ffffff; }
+  nav a:active {
+    color: #ffffff; }
+  nav .head-center {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px; }
+  nav .links {
+    float: right; }
+
+/*# sourceMappingURL=main.css.map */
