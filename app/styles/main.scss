@@ -1,13 +1,14 @@
 $font-stack:    Roboto, sans-serif;
-$primary-color: #1565c0;
-$secondary-color-dark: #003c8f;
-$secondary-color-light: #5e92f3;
-$bg-color: #ffffff;
+$primary-color: #16193B;
+$secondary-color-dark: #35478C;
+$secondary-color-light: #ADD5F7;
+$bg-color: #D0D4F5;
 $text-color: #ffffff;
+$accent-color: #F07F4A;
 $main-font: 'Raleway', sans-serif;
 $head-font: 'Josefin Slab', serif;
 
-html {
+html body {
   background-color: $bg-color;
 }
 
@@ -18,26 +19,31 @@ nav{
   background: $primary-color;
   z-index: 99;
   width: 100%;
-  box-shadow: (0px 2px 3px 0px $secondary-color-dark);
-
+  box-shadow: (0px -5px 3px 0px $secondary-color-dark);
+  
   ul{
     background: $primary-color;
     height: 72px;
     margin: 0;
     padding: 0;
     list-style: none;
-
+}
+  h1{
+    display: inline-block;
+    font-family: $head-font;
+    color: #ffffff;
   }
   li{
-    padding-top: 9px;
+    padding-top: 12px;
     display: inline-block;
     height: 72px;
     transition: background 0.5s ease;
     background-color: $primary-color;
   }
   li:hover{
-    background-color: $secondary-color-light;
+    background-color: $accent-color;
     text-decoration: none;
+    box-shadow: (0px 2px 3px 0px $secondary-color-dark);
   }
   a{
     color: $text-color;
@@ -45,7 +51,7 @@ nav{
     padding: 10px 16px;
     text-decoration: none;
     font-family: $main-font;
-    font-size: 30px
+    font-size: 20px
   }
   a:hover{
     text-decoration: none;
@@ -74,4 +80,9 @@ nav{
   .links{
     float: right;
   }
+}
+
+.container{
+  margin-top: 72px;
+  background-color: $bg-color;
 }
